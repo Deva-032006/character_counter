@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposive web</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img class="image" src="c1.jpg" width="60px" alt="">
+            <h1>simple Design</h1>
+        </div>
+        <ul class="shown">
+            <li class="mobile"><a href="#">Home</a></li>
+            <li class="mobile"><a href="#">About</a></li>
+            <li class="mobile"><a href="#">Contact</a></li>
+            <li class="bar"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+        <ul class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="close"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="space">
+            <div class="counter">
+                <p>character counter</p>
+                <textarea class="textarea" id="textarea" value=" " placeholder="write some thing...." maxlength="500"></textarea>
+            </div>
+            <div class="number">
+                <p>total count: <span class="totalchar" id="totalchar">0</span></p>
+                <p >remaining count: <span class="remainchar" id="remainchar">50</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="basic.js"></script>
+</body>
+</html>
